@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #E5446D;
+    background-color: #F8F4E3;
 }
 
 hr {
@@ -34,7 +34,7 @@ p {
 }
 
 b, strong {
-    color: #FF8966;
+    color: #E5446D;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -48,7 +48,6 @@ li, a, button {
 }
 
 header {
-    background-color: #F8F4E3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,6 +89,79 @@ header {
     background-color: #E5446D;
 }
 
+/* ---------------- MAIN LANDING SECTION ---------------- */
+
+.main-landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    gap: 20px;
+}
+
+.main-landing img {
+    flex-shrink: 0;
+    align-self: flex-end;
+    max-height: 90vh;
+    width: auto;
+    object-fit: cover;
+    align-self: right;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+.landing-header {
+    flex-grow: 1;
+    padding: 70px 10px 50px; 
+    border-left: 7px solid #2A2B2A;
+    padding-left: 20px;
+    line-height: 1.0;
+    margin-left: 15px;
+    margin-right: 50px;
+    width: 45%;
+}
+
+.landing-header h1 {
+    font-family: 'Abril-Fatface', Georgia, 'Georgia-Pro', Cambria, serif;
+    font-size: 4.37em;
+    text-align: left;
+    background: linear-gradient(to right, #e5446d, #ff8966, #ff8966);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 5px 0 0; 
+    padding: 0;
+    letter-spacing: 1px;
+    word-spacing: 0.06em;
+}
+
+.landing-header h2 {
+    font-size: 1.25em;
+    text-align: left;
+    margin: 0; 
+    padding: 0;
+    font-weight: normal
+}
+
+.landing-header p {
+    margin: 5px 0 20px; 
+    padding: 0; 
+    text-align: left; 
+    text-indent: 0px;
+    font-size: 1em
+}
+
+.landing-buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+h2, p {
+    font-family: Poppins, Roboto, Verdana, san-serif;
+    color: #2A2B2A;
+}
+
 /* ---------------- SECTION BUTTONS ---------------- */
 .section-button {
     display: flex;
@@ -99,38 +171,64 @@ header {
     margin-right: 100px;
 }
 
-
-/* ---------------- SKILLS SECTION ---------------- */
+/* ---------------- TECHNICAL SKILLS SECTION ---------------- */
 .skills-container {
-    background-color: #F8F4E3;
+    padding: 50px 10%;
+    display: flex;
+    gap: 20px;
+}
+
+.skills-container li {
+    font-family: Poppins, Roboto, Verdana, san-serif;
+}
+
+.all-skills {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: right;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.all-skills img {
+    flex-shrink: 0;
+    align-self: flex-end;
+    max-height: 25vh;
+    width: auto;
+    object-fit: cover;
+    align-self: right;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+/* ---------------- WORK SECTION ---------------- */
+.work-container {
+    padding: 50px 10%;
+    gap: 20px;
+}
+
+.work-container li {
+    font-family: Poppins, Roboto, Verdana, san-serif;
+}
+
+/* ---------------- EDUCATIONAL SECTION ---------------- */
+.education-container {
     padding: 50px 10%;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* ---------------- HOBBIES SECTION ---------------- */
-.hobbies-container {
+/* ---------------- TRAINING/SEMINARS SECTION ---------------- */
+.training-container {
+    background-color: #F8F4E3;
     padding: 50px 10%;
-    color: white;
 }
 
-.hobbies-container b, .teenage-container strong {
-    color: #F8F4E3;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-}
-
-.hobbies-container hr {
-    background: #F8F4E3;
-}
-
-/* ---------------- INTEREST SECTION ---------------- */
+/* ---------------- INTEREST/HOBBIES SECTION ---------------- */
 .interest-container {
     background-color: #F8F4E3;
     padding: 50px 10%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* ---------------- FOOTER ---------------- */
