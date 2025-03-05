@@ -40,6 +40,7 @@ header {
 
 .nav-links li a:hover {
     color: #FF8966;
+    font-size: 1.125em;
 }
 
 .nav-links li a.active {
